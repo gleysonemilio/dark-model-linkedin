@@ -1,0 +1,22 @@
+.container-about {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    margin: 0 auto;
+}
+
+.container-about-show {
+    display: flex;
+}
+
+.container-show-about {
+    display: flex;
+    justify-content: end;
+}
+
+.container-show-about span:hover {
+    color: var(--color-primary);
+    cursor: pointer;
+}
