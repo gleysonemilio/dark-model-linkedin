@@ -1,5 +1,6 @@
 import About from './about'
 import Analysis from './analysis'
+import Highlighted from './highlighted'
 import Profile from './profile'
 import Recursos from './recursos'
 
@@ -17,6 +18,7 @@ export default async function DevSetup() {
         <Analysis />
         <Recursos />
         <About />
+        <Highlighted />
       </div>
       <div className="item2">TESTE</div>
     </div>

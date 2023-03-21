@@ -2,6 +2,7 @@ import { ReactElement } from 'react'
 import { Users, Eye, Search, Radio, ChevronRight } from 'lucide-react'
 import './styles.css'
 import { TitleIconView } from '@/components/TitleIconView'
+import { FeedLow } from '@/components/FeedLow'
 
 interface listProps {
   Icon: () => ReactElement
@@ -44,10 +45,7 @@ export default function Recursos() {
         </div>
       </div>
 
-      <div className="container-display">
-        <span> Display all 5 resources </span>
-        <ChevronRight size={25} color="#7c7c8a" />
-      </div>
+      <FeedLow text="Display all 5 resources" />
     </div>
   )
 }
