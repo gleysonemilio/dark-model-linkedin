@@ -5,7 +5,7 @@ import './styles.css'
 
 export function Header() {
   return (
-    <div className="container">
+    <section className="container-header">
       <div className="container-main">
         <div className="container-search">
           <Link href={'/linkedin'}>
@@ -24,6 +24,6 @@ export function Header() {
       <div className="container-icons">
         <Grid size={20} color="#7c7c8a" />
       </div>
-    </div>
+    </section>
   )
 }

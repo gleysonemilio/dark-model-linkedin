@@ -14,12 +14,12 @@ export default function About() {
   const [showText, setShowText] = useState(false)
 
   return (
-    <div className="container-feed">
-      <div className="container-analysis">
+    <section className="container-feed">
+      <div className="container-sub">
         <TitleIconView title="About" />
 
         <div className={showText ? 'container-about-show' : 'container-about'}>
-          <span>
+          <p>
             Full-stack developer with almost 5 years of experience and fluctuating in different
             technologies over this time, I have worked in the health area, telecommunication,
             geolocation, management, NF-e verification/collection, personal loan platform.
@@ -52,14 +52,15 @@ export default function About() {
             Figma, Adobe XD
             <br />
             <br />➜ OTHER Jira, Bitbucket, GitHub, GitLab, CircleCi, Aws, Jenkins, Argocd
-          </span>
+          </p>
         </div>
-        <div className="container-show-about">
+        
+        <section className="container-show-about">
           <span onClick={() => setShowText(!showText)}>
             {showText ? '...see less' : '...see more'}{' '}
           </span>
-        </div>
+        </section>
       </div>
-    </div>
+    </section>
   )
 }

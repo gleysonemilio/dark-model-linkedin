@@ -29,8 +29,8 @@ export default function Analysis() {
   ]
 
   return (
-    <div className="container-feed">
-      <div className="container-analysis">
+    <section className="container-feed">
+      <div className="container-sub">
         <TitleIconView title="Analysis" Icon={() => <Eye size={20} color="#7c7c8a" />} />
 
         <div className="d-flex gap-007">
@@ -47,6 +47,6 @@ export default function Analysis() {
           ))}
         </div>
       </div>
-    </div>
+    </section>
   )
 }

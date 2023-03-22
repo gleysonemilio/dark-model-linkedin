@@ -10,6 +10,17 @@
     display: flex;
     flex-direction: row;
     gap: 0.5rem;
+    cursor: pointer;
+}
+
+.container-highlighted:hover {
+    cursor: pointer;
+    filter: brightness(.9);
+    background: var(--color-gray-500);
+}
+
+.container-highlighted:hover span {
+    color: var(--color-white-100);
 }
 
 .img-highlighted {
@@ -61,7 +72,7 @@
     color: var(--color-gray-400);
 }
 
-.container-highlighted > span {
+.container-highlighted>span {
     color: var(--color-gray-400);
     padding: .5rem 1rem;
 }

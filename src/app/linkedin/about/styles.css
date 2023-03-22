@@ -16,7 +16,7 @@
     justify-content: end;
 }
 
-.container-show-about span:hover {
+.container-show-about p:hover {
     color: var(--color-primary);
     cursor: pointer;
 }

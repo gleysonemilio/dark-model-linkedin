@@ -19,7 +19,7 @@ export default function Profile() {
   ]
 
   return (
-    <div className="container-feed">
+    <section className="container-feed">
       <div className="img-profile">
         <img src={url_profile} alt="img profile" />
       </div>
@@ -51,6 +51,6 @@ export default function Profile() {
         <Button text="Add profile section" />
         <ButtonDefault text="More" />
       </div>
-    </div>
+    </section>
   )
 }

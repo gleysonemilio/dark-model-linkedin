@@ -25,8 +25,8 @@ export default function Recursos() {
   ]
 
   return (
-    <div className="container-feed">
-      <div className="container-analysis">
+    <section className="container-feed">
+      <div className="container-sub">
         <TitleIconView title="Resources" Icon={() => <Eye size={20} color="#7c7c8a" />} />
 
         <div className="d-flex f-direction gap-007">
@@ -46,6 +46,6 @@ export default function Recursos() {
       </div>
 
       <FeedLow text="Display all 5 resources" />
-    </div>
+    </section>
   )
 }
