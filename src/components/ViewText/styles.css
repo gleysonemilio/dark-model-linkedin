@@ -1,4 +1,4 @@
-.container-about {
+.container-text {
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
@@ -7,16 +7,25 @@
     margin: 0 auto;
 }
 
-.container-about-show {
+.container-text-show {
     display: flex;
 }
 
-.container-show-about {
+.container-see-more {
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
 }
 
-.container-show-about p:hover {
+.container-see-more span:hover {
     color: var(--color-primary);
     cursor: pointer;
+}
+
+.container-skills {
+    display: flex;
+    text-align: justify;
+}
+
+.container-skills strong {
+    color: var(--color-gray-200);
 }

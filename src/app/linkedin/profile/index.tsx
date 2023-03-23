@@ -19,7 +19,7 @@ export default function Profile() {
   ]
 
   return (
-    <section className="container-feed">
+    <section >
       <div className="img-profile">
         <img src={url_profile} alt="img profile" />
       </div>

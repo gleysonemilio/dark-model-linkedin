@@ -25,7 +25,7 @@ export default function Recursos() {
   ]
 
   return (
-    <section className="container-feed">
+    <section >
       <div className="container-sub">
         <TitleIconView title="Resources" Icon={() => <Eye size={20} color="#7c7c8a" />} />
 

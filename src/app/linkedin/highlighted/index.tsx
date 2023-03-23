@@ -7,7 +7,7 @@ export default function Highlighted() {
   const img_highlighted =
     'https://media.licdn.com/dms/image/C4D22AQFiDw0ATDCfUg/feedshare-shrink_480/0/1651845387455?e=1682553600&v=beta&t=jO9KOMm418USNuU9zxJcOnQE5LCJyrLz-vj5ob-_MfI'
   return (
-    <section className="container-feed">
+    <section >
       <div className="container-sub">
         <TitleIconView title="highlighted" />
 

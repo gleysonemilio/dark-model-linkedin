@@ -1,0 +1,23 @@
+.container-experience {
+    display: flex;
+    flex-direction: columns;
+
+    border-bottom: 1px dashed var(--color-gray-500);
+    padding: 0.9rem 0;
+}
+
+
+.container-experience img {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 0.3rem;
+}
+
+.container-experience-text {
+    margin: 0rem 0.9rem;
+    overflow: hidden;
+}
+
+.container-experience-text span {
+    color: var(--color-gray-400);
+}

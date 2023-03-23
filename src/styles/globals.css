@@ -133,6 +133,14 @@ p {
   line-height: 1.25;
 }
 
+section {
+  width: 90%;
+  border-radius: 1.3rem;
+  background: var(--color-gray-800);
+  overflow: hidden;
+}
+
+
 @media (prefers-color-scheme: dark) {
   html {
     /* color-scheme: dark; */
@@ -175,19 +183,16 @@ p {
   overflow: auto;
 }
 
-.container-feed {
-  width: 90%;
-  border-radius: 1.3rem;
-  background: var(--color-gray-800);
-  overflow: hidden;
-}
-
 .d-flex {
   display: flex;
 }
 
 .j-center {
   justify-content: center;
+}
+
+.j-space-between {
+  justify-content: space-between;
 }
 
 .f-direction {
