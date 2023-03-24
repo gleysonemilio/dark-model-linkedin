@@ -27,8 +27,8 @@ export default function About() {
               technologies in the market.
               <br />
               <br />
-              Today I'm a Full-stack Pleno/Senior developer, I've been standing out throughout my
-              career for my knowledge in Ui/Ux, I've worked with the following technologies:
+              Today I&apos;m a Full-stack Pleno/Senior developer, I&apos;ve been standing out throughout my
+              career for my knowledge in Ui/Ux, I&apos;ve worked with the following technologies:
               <br />
               <br />
               -<br />

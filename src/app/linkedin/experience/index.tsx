@@ -10,8 +10,8 @@ export default function Experience() {
       <div className="container-sub">
         <TitleIconView title={titles.experience} />
         {list_experience.map(
-          ({ skills, text, img_company, location, title, sub_title, time_worked }) => (
-            <div className="container-experience">
+          ({ skills, text, img_company, location, title, sub_title, time_worked }, index) => (
+            <div className="container-experience" key={index}>
               <div>
                 <img src={img_company} alt="" />
                 <div className="container-liner" />

@@ -1,6 +1,7 @@
 {
   "name": "dask-model-linkedin",
   "version": "0.1.0",
+  "homepage": "dask-model-linkedin",
   "private": true,
   "scripts": {
     "dev": "next dev",

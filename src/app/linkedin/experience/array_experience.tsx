@@ -14,7 +14,7 @@ export const list_experience: ExperienceProps[] = [
   {
     text: (
       <p>
-        I accepted SalutemPlus's challenge to become a Full-stack developer as I have a
+        I accepted SalutemPlus&apos;s challenge to become a Full-stack developer as I have a
         long-standing desire to expand my knowledge and skills in the development area. Working at
         Salutem was a significant milestone in my career as I had direct contact with clients and
         learned how to manage their expectations effectively in meetings and alignments.
@@ -64,7 +64,7 @@ export const list_experience: ExperienceProps[] = [
   {
     text: (
       <p>
-        I accepted SalutemPlus's challenge to become a Full-stack developer as I have a
+        I accepted SalutemPlus&apos;s challenge to become a Full-stack developer as I have a
         long-standing desire to expand my knowledge and skills in the development area. Working at
         Salutem was a significant milestone in my career as I had direct contact with clients and
         learned how to manage their expectations effectively in meetings and alignments.
@@ -115,19 +115,21 @@ export const list_experience: ExperienceProps[] = [
   {
     text: (
       <p>
-        I accepted SalutemPlus's challenge to become a Full-stack developer as I have a
-        long-standing desire to expand my knowledge and skills in the development area. Working at
-        Salutem was a significant milestone in my career as I had direct contact with clients and
-        learned how to manage their expectations effectively in meetings and alignments.
+        I worked at Azapfy as a designer and front-end developer. When I first started, I spent two
+        months as a designer, where I was tasked with reformulating the platform using Adobe XP.
         <br />
         <br />
-        My previous experience with React made me a great fit for the role of helping to reformulate
-        the platform from HTML to React. I took on the responsibility of creating the entire
-        end-to-end system, which involved database creation in MySql, back-end development in PHP,
-        and front-end development in React.
+        After those two months, I transitioned into a front-end role, working with React and HTML to
+        create important modules for the company&apos;s platform. Some of my key achievements in this
+        role include developing packing list, NF-e verification, and delivery tracking modules that
+        are still used in the company today. I was also one of the key contributors to the front-end
+        platform&apos;s complete reformulation, moving it from HML to React.
         <br />
-        <br />I enjoyed the opportunity to work directly with the client and take ownership of the
-        project from start to finish.
+        <br />
+        I&apos;m proud of the work I did at Azapfy, and I feel that I made a real impact during my time
+        there. My skills as a designer and front-end developer allowed me to bring valuable insights
+        and solutions to the company, and I enjoyed collaborating with my colleagues to deliver
+        successful projects.
       </p>
     ),
     title: 'Front-End Developer',
@@ -159,7 +161,7 @@ export const list_experience: ExperienceProps[] = [
     text: (
       <p>
         I was seeking to expand my horizons beyond the infrastructure segment of the technology
-        market. That's when I found an opportunity to work at Mercedes Benz in their DTI (Department
+        market. That&apos;s when I found an opportunity to work at Mercedes Benz in their DTI (Department
         Technologist Informatica) technological department.
         <br />
         <br />

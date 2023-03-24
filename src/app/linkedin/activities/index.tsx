@@ -13,7 +13,7 @@ export default function Activities() {
         />
 
         <div className="container-items-text m-bottom">
-          <h3>You haven't posted lately</h3>
+          <h3>You haven&apos;t posted lately</h3>
           <span>Recent posts you share or comment on will appear here</span>
         </div>
       </div>
