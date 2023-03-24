@@ -1,5 +1,5 @@
-import './styles.css'
 import { ChevronRight } from 'lucide-react'
+import './styles.css'
 
 interface FeedLowProps {
   text: string

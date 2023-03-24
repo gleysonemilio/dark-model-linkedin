@@ -1,7 +1,6 @@
 'use client'
 
 import { ReactElement, useState } from 'react'
-
 import './styles.css'
 
 interface ViewTextProps {

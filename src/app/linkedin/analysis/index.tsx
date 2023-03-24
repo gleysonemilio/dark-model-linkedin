@@ -1,7 +1,8 @@
 import { ReactElement } from 'react'
 import { Users, Eye, Search, BarChart2 } from 'lucide-react'
-import './styles.css'
 import { TitleIconView } from '@/components/TitleIconView'
+import { titles } from '@/core/resources'
+import './styles.css'
 
 interface listProps {
   Icon: () => ReactElement
@@ -31,7 +32,7 @@ export default function Analysis() {
   return (
     <section >
       <div className="container-sub">
-        <TitleIconView title="Analysis" Icon={() => <Eye size={20} color="#7c7c8a" />} />
+        <TitleIconView title={titles.analysis} Icon={() => <Eye size={20} color="#7c7c8a" />} />
 
         <div className="d-flex gap-007">
           {list_analysis.map(({ title, sub_title, Icon }, index) => (

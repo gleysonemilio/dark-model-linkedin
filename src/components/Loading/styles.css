@@ -1,0 +1,21 @@
+.container-loading svg {
+    z-index: 100;
+}
+
+@keyframes pulse {
+    30% {
+        transform: scale(2);
+        opacity: 0;
+    }
+}
+
+.container-loading {
+    display: flex;
+    height: 50vh;
+    align-items: center;
+    justify-content: center;
+
+    animation: pulse 3s ease-out infinite;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}

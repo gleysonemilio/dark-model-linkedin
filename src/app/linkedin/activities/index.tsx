@@ -1,5 +1,6 @@
 import { TitleIconView } from '@/components/TitleIconView'
 import { FeedLow } from '@/components/FeedLow'
+import { titles } from '@/core/resources'
 import './styles.css' 
 
 export default function Activities() {
@@ -7,7 +8,7 @@ export default function Activities() {
     <section>
       <div className="container-sub">
         <TitleIconView
-          title="Activities"
+          title={titles.activities}
           subTitle={'706 followers'}
           titleButton="start publication"
         />

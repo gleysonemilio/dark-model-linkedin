@@ -1,3 +1,15 @@
+@keyframes fadeInUp {
+    0% {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    
+    100% {
+        transform: translateY(0px);
+        opacity: 100;
+    }
+}
+
 #container-linkedin {
     display: grid;
     grid-template-areas: 'sidebar main';
@@ -7,7 +19,10 @@
     color: var(--color-white-100);
     background-color: #18181a;
     padding: 0px 4rem;
-    margin-top: 1rem;
+    margin: 1rem 0;
+
+    animation: fadeInUp 0.8s;
+    animation-timing-function: linear;
 }
 
 .item1 {

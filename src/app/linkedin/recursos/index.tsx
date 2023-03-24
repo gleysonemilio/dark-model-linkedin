@@ -1,8 +1,9 @@
 import { ReactElement } from 'react'
 import { Users, Eye, Search, Radio, ChevronRight } from 'lucide-react'
-import './styles.css'
 import { TitleIconView } from '@/components/TitleIconView'
 import { FeedLow } from '@/components/FeedLow'
+import { titles } from '@/core/resources'
+import './styles.css'
 
 interface listProps {
   Icon: () => ReactElement
@@ -25,9 +26,9 @@ export default function Recursos() {
   ]
 
   return (
-    <section >
+    <section>
       <div className="container-sub">
-        <TitleIconView title="Resources" Icon={() => <Eye size={20} color="#7c7c8a" />} />
+        <TitleIconView title={titles.resources} Icon={() => <Eye size={20} color="#7c7c8a" />} />
 
         <div className="d-flex f-direction gap-007">
           {list_analysis.map(({ title, sub_title, Icon }, index) => (

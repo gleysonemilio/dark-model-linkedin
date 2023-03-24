@@ -1,5 +1,6 @@
 import { TitleIconView } from '@/components/TitleIconView'
 import { Heart, ThumbsUp } from 'lucide-react'
+import { titles } from '@/core/resources'
 import './styles.css'
 
 export default function Highlighted() {
@@ -8,7 +9,7 @@ export default function Highlighted() {
   return (
     <section >
       <div className="container-sub">
-        <TitleIconView title="highlighted" />
+        <TitleIconView title={titles.highlighted} />
 
         <div className="container-highlighted">
           <span>Publication</span>

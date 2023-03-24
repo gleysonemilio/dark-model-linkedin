@@ -1,7 +1,7 @@
 import { ReactElement } from 'react'
 import { TitleIconView } from '@/components/TitleIconView'
 import { ViewText } from '@/components/ViewText'
-
+import { titles } from '@/core/resources'
 interface listProps {
   Icon: () => ReactElement
   title: string
@@ -12,7 +12,7 @@ export default function About() {
   return (
     <section>
       <div className="container-sub">
-        <TitleIconView title="About" />
+        <TitleIconView title={titles.about} />
 
         <ViewText
           text={

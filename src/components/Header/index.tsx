@@ -1,6 +1,5 @@
 import { Home, Users, Backpack, MessageCircle, Bell, Linkedin, Grid } from 'lucide-react'
 import Link, { LinkProps } from 'next/link'
-
 import './styles.css'
 
 export function Header() {

@@ -1,14 +1,15 @@
 import { TitleIconView } from '@/components/TitleIconView'
 import { ViewText } from '@/components/ViewText'
 import { list_experience } from './array_experience'
-import './styles.css'
 import { CalendarRange, MapPin, Pin } from 'lucide-react'
+import { titles } from '@/core/resources'
+import './styles.css'
 
 export default function Experience() {
   return (
     <section>
       <div className="container-sub">
-        <TitleIconView title="Experience" />
+        <TitleIconView title={titles.experience} />
         {list_experience.map(
           ({ skills, text, img_company, location, title, sub_title, time_worked }) => (
             <div className="container-experience">
@@ -24,7 +25,7 @@ export default function Experience() {
                       time_worked
                     ) : (
                       <>
-                        <Pin size={18}/> Now
+                        <Pin size={18} /> Now
                       </>
                     )}
                   </span>
