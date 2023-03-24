@@ -1,7 +1,6 @@
 import { TitleIconView } from '@/components/TitleIconView'
-import './styles.css'
-import Image from 'next/image'
 import { Heart, ThumbsUp } from 'lucide-react'
+import './styles.css'
 
 export default function Highlighted() {
   const img_highlighted =

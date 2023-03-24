@@ -1,9 +1,8 @@
 .container-experience {
     display: flex;
-    flex-direction: columns;
 
-    border-bottom: 1px dashed var(--color-gray-500);
-    padding: 0.9rem 0;
+    /* border-bottom: 1px dashed var(--color-gray-500); */
+    padding: 1rem;
 }
 
 
@@ -16,8 +15,50 @@
 .container-experience-text {
     margin: 0rem 0.9rem;
     overflow: hidden;
+    gap: 0.2rem;
+
+    display: flex;
+    flex-direction: column;
 }
 
 .container-experience-text span {
     color: var(--color-gray-400);
+}
+
+.container-liner {
+    border-left: 1px dashed var(--color-gray-500);
+    height: 100%;
+    width: 100%;
+    position: relative;
+    left: 17px;
+}
+
+.container-experience-text h3 {
+    color: var(--color-white);
+}
+
+.container-experience-title {
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+}
+
+.container-experience-title {
+    display: flex;
+}
+
+.container-experience-title span {
+    display: flex;
+    align-items: center;
+    background: var(--color-primary);
+    padding: 0.2rem;
+    border-radius: 0.3rem;
+    color: var(--color-white);
+    font-weight: 700;
+}
+
+.container-experience h3:hover {
+    color: var(--color-primary);
+    text-decoration: underline;
+    cursor: pointer;
 }

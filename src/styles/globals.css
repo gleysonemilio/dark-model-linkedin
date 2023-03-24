@@ -207,6 +207,14 @@ section {
   gap: 0.7rem;
 }
 
+.gap-005 {
+  gap: 0.5rem;
+}
+
+.gap-003 {
+  gap: 0.3rem;
+}
+
 .border-bottom {
   border-bottom: 1px solid var(--color-gray-500);
 }

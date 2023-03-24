@@ -1,32 +1,50 @@
 import { TitleIconView } from '@/components/TitleIconView'
-import './styles.css'
 import { ViewText } from '@/components/ViewText'
-import { ReactElement } from 'react'
 import { list_experience } from './array_experience'
+import './styles.css'
+import { CalendarRange, MapPin, Pin } from 'lucide-react'
 
 export default function Experience() {
   return (
     <section>
       <div className="container-sub">
         <TitleIconView title="Experience" />
-        {list_experience.map(({ skills, text, img_company, location, title, sub_title }) => (
-          <div className="container-experience">
-            <div>
-              <img src={img_company} alt="" />
-            </div>
-            <div className="container-experience-text">
-              <h3>{title}</h3>
-              <span>
-              {sub_title}
+        {list_experience.map(
+          ({ skills, text, img_company, location, title, sub_title, time_worked }) => (
+            <div className="container-experience">
+              <div>
+                <img src={img_company} alt="" />
+                <div className="container-liner" />
+              </div>
+              <div className="container-experience-text">
+                <div className="container-experience-title">
+                  <h3>{title}</h3>
+                  <span>
+                    {time_worked ? (
+                      time_worked
+                    ) : (
+                      <>
+                        <Pin size={18}/> Now
+                      </>
+                    )}
+                  </span>
+                </div>
+
+                <div className="d-flex align-center gap-003">
+                  <CalendarRange size={18} />
+                  <span>{sub_title}</span>
+                </div>
+                <div className="d-flex align-center gap-003">
+                  <MapPin size={18} />
+                  <span>{location}</span>
+                </div>
+
                 <br />
-                {location}
-              </span>
-              <br />
-              <br />
-              <ViewText text={<>{text}</>} skills={skills} />
+                <ViewText text={<>{text}</>} skills={skills} />
+              </div>
             </div>
-          </div>
-        ))}
+          )
+        )}
       </div>
     </section>
   )
