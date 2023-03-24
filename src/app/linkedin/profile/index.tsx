@@ -1,4 +1,4 @@
-import { Button, ButtonDefault, ButtonPrimary } from '@/components/Button'
+import { Button, ButtonDefault, ButtonPrimary } from '@/components'
 import './styles.css'
 
 export default function Profile() {
@@ -19,7 +19,7 @@ export default function Profile() {
   ]
 
   return (
-    <section >
+    <section>
       <div className="img-profile">
         <img src={url_profile} alt="img profile" />
       </div>

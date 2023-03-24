@@ -1,7 +1,6 @@
 import { ReactElement } from 'react'
 import { Users, Eye, Search, Radio, ChevronRight } from 'lucide-react'
-import { TitleIconView } from '@/components/TitleIconView'
-import { FeedLow } from '@/components/FeedLow'
+import { TitleIconView, FeedLow } from '@/components'
 import { titles } from '@/core/resources'
 import './styles.css'
 

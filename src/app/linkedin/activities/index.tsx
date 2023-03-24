@@ -1,7 +1,6 @@
-import { TitleIconView } from '@/components/TitleIconView'
-import { FeedLow } from '@/components/FeedLow'
+import { TitleIconView, FeedLow } from '@/components'
 import { titles } from '@/core/resources'
-import './styles.css' 
+import './styles.css'
 
 export default function Activities() {
   return (

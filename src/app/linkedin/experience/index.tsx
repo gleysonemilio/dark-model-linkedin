@@ -1,5 +1,4 @@
-import { TitleIconView } from '@/components/TitleIconView'
-import { ViewText } from '@/components/ViewText'
+import { TitleIconView, ViewText } from '@/components'
 import { list_experience } from './array_experience'
 import { CalendarRange, MapPin, Pin } from 'lucide-react'
 import { titles } from '@/core/resources'

@@ -8,12 +8,8 @@ import Experience from './experience'
 import Highlighted from './highlighted'
 import Profile from './profile'
 import Recursos from './recursos'
-import './styles.css'
 import Loading from '@/components/Loading'
-
-export const metadata = {
-  title: 'LinkeDin Dark'
-}
+import './styles.css'
 
 export default function DevSetup() {
   const [view, setview] = useState(false)
@@ -35,7 +31,7 @@ export default function DevSetup() {
         <Activities />
         <Experience />
       </div>
-      <div className="item2">Aside...</div>
+      <div className="item2"></div>
     </div>
   ) : (
     <div className="o-hidden">

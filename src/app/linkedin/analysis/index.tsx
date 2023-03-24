@@ -1,6 +1,6 @@
 import { ReactElement } from 'react'
 import { Users, Eye, Search, BarChart2 } from 'lucide-react'
-import { TitleIconView } from '@/components/TitleIconView'
+import { TitleIconView } from '@/components'
 import { titles } from '@/core/resources'
 import './styles.css'
 

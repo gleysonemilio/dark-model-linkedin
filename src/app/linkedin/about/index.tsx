@@ -1,6 +1,5 @@
 import { ReactElement } from 'react'
-import { TitleIconView } from '@/components/TitleIconView'
-import { ViewText } from '@/components/ViewText'
+import { TitleIconView, ViewText } from '@/components'
 import { titles } from '@/core/resources'
 interface listProps {
   Icon: () => ReactElement
