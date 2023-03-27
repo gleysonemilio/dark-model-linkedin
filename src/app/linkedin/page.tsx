@@ -8,8 +8,13 @@ import Experience from './experience'
 import Highlighted from './highlighted'
 import Profile from './profile'
 import Recursos from './recursos'
+import Skills from './skills'
 import Loading from '@/components/Loading'
 import './styles.css'
+
+export const metadata = {
+  title: '...'
+}
 
 export default function DevSetup() {
   const [view, setview] = useState(false)
@@ -30,6 +35,7 @@ export default function DevSetup() {
         <Highlighted />
         <Activities />
         <Experience />
+        <Skills />
       </div>
       <div className="item2"></div>
     </div>

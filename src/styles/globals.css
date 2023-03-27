@@ -197,6 +197,10 @@ section {
   align-items: center;
 }
 
+.gap-009 {
+  gap: 0.9rem;
+}
+
 .gap-007 {
   gap: 0.7rem;
 }

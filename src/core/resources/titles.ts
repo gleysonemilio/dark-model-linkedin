@@ -5,4 +5,5 @@ export const titles = {
     highlighted: 'Highlighted',
     activities: 'Activities',
     experience: 'Experience',
+    skills: 'Skills',
 }
