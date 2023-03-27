@@ -18,12 +18,11 @@ export default function Highlighted() {
             <div className="img-highlighted" />
             <div className="text-highlighted">
               <h3>
-                Minha hora chegou e finalmente posso dizer que sou um
+                My time has come and I can finally say that I am a CI&Ter. <br />
                 <br />
-                <br />
-                Depois de uma longa jornada de muito aprendizado trabalhando entre Front-end e
-                Full-stack, venho hoje compartilhar com vocês que estou muito feliz e grato de fazer
-                parte do time de desenvolvimento da CI&T.
+                After a long journey of much learning working between Front-end and Full-stack,
+                today I want to share with you that I am very happy and grateful to be part of
+                CI&T's development time.
               </h3>
             </div>
           </div>

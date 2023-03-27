@@ -12,10 +12,6 @@ import Skills from './skills'
 import Loading from '@/components/Loading'
 import './styles.css'
 
-export const metadata = {
-  title: '...'
-}
-
 export default function DevSetup() {
   const [view, setview] = useState(false)
 
