@@ -12,20 +12,24 @@ export default function Skills() {
     <section>
       <div className="container-sub">
         <TitleIconView title={titles.skills} />
-        <div className='d-flex f-direction gap-009'>
-          {list_skills && list_skills.map(({ list, name }, index) => (
-            <div key={index}>
-              <h3>- {name}</h3>
-              <div className="container-icon-skills">
-                {list.map((skills, idx) => (
-                  <div key={idx} className="container-name-skills">
-                    <i className={`${skills} `} />
-                    <span>{nameSkills(skills)}</span>
-                  </div>
-                ))}
+        <div className="d-flex f-direction gap-009">
+          {list_skills &&
+            list_skills.map(({ list, name }, index) => (
+              <div key={index} className="d-flex f-direction gap-005">
+                <div className="d-flex gap-003 align-center">
+                  <h3>- {name}</h3>
+                  <span className="tag">{list.length} skills</span>
+                </div>
+                <div className="container-icon-skills">
+                  {list.map((skills, idx) => (
+                    <div key={idx} className="container-name-skills">
+                      <i className={`${skills} `} />
+                      <span>{nameSkills(skills)}</span>
+                    </div>
+                  ))}
+                </div>
               </div>
-            </div>
-          ))}
+            ))}
         </div>
       </div>
     </section>

@@ -2,6 +2,9 @@
     display: flex;
     gap: 0.5rem;
     flex-flow: wrap;
+
+    border-bottom: 1px solid var(--color-gray-900);
+    padding-bottom: 2rem;
 }
 
 .container-icon-skills i {
@@ -19,4 +22,14 @@
 
 .container-name-skills span {
     color: var(--color-gray-400);
+}
+
+
+.tag {
+    align-items: center;
+    background: var(--color-primary);
+    padding: 0.2rem;
+    border-radius: 0.3rem;
+    color: var(--color-white);
+    font-weight: 700;
 }

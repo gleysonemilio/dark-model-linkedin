@@ -1,0 +1,33 @@
+.container-aside {
+    display: flex;
+    justify-content: center;
+    gap: 0.3rem;
+    padding: 0.5rem;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-aside a:hover {
+    text-decoration: underline;
+    color: var(--color-primary);
+}
+
+
+.container-links {
+    display: flex;
+    justify-content: center;
+    gap: 0.3rem;
+    padding: 0.5rem;
+    align-items: center;
+}
+
+.container-links a {
+    text-decoration: none;
+    gap: 0.3rem;
+    display: flex;
+    align-items: end;
+}
+
+.container-aside span {
+    color: var(--color-gray-400);
+}

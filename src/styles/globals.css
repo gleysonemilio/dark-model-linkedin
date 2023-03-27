@@ -117,12 +117,17 @@ p {
 }
 
 section {
-  width: 90%;
+  width: 100%;
   border-radius: 1.3rem;
   background: var(--color-gray-800);
   overflow: hidden;
 }
 
+aside {
+  width: 20rem;
+  position: fixed;
+  margin: 0 2rem;
+}
 
 @media (prefers-color-scheme: dark) {
   html {
@@ -197,6 +202,10 @@ section {
   align-items: center;
 }
 
+.align-end {
+  align-items: center;
+}
+
 .gap-009 {
   gap: 0.9rem;
 }
@@ -239,6 +248,10 @@ section {
 
 .p-005 {
   padding: 0.5rem;
+}
+
+.p-003 {
+  padding: 0.3rem;
 }
 
 .o-hidden {
