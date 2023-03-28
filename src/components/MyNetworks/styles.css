@@ -7,7 +7,7 @@
     flex-direction: column;
 }
 
-.container-aside a:hover {
+.container-aside span:hover {
     text-decoration: underline;
     color: var(--color-primary);
 }
@@ -28,6 +28,11 @@
     align-items: end;
 }
 
-.container-aside span {
+.container-links i:hover {
+    color: #0a66c2;
+}
+
+.container-aside span,
+p {
     color: var(--color-gray-400);
 }
