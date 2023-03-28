@@ -1,3 +1,34 @@
+# LinkedIn Dark Mode (Gleyson)
+
+link: https://dask-model-linkedin.vercel.app/
+
+I decided to improve my knowledge of the latest version of Next13, better understanding the functioning of server and client components, as well as exploring new features.
+
+With this in mind, I decided to create the LinkedIn profile section from scratch, incorporating a dark mode theme. In the process, I also created some components with a more modern appearance.
+
+
+<p align="center">
+  <img alt="Demo on Netlify" src="https://res.cloudinary.com/dvggwxs6a/image/upload/v1680038976/gip_teste_1_nlnwbx.gif">
+</p>
+
+
+The ultimate goal is to turn it into a comprehensive portfolio that showcases my experience and allows me to tell my professional story in a unique way.
+
+## New Module Experience
+
+<p align="center">
+  <img alt="New Module Experience" src="https://res.cloudinary.com/dvggwxs6a/image/upload/v1680039407/img_expe_mq0seo.png">
+</p>
+
+## New Module Skills
+<p align="center">
+  <img alt="New Module Skills" src="https://res.cloudinary.com/dvggwxs6a/image/upload/v1680039407/img_skills_by4lnf.png">
+</p>
+
+Specifications: Project created from scratch using [Next.js](https://nextjs.org/) , [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS) and [Typescript](https://www.typescriptlang.org/) "
+
+## 🛠 Built With
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -11,28 +42,8 @@ yarn dev
 # or
 pnpm dev
 ```
+<h4 align="left"> 
+	🚧 Next.js 🚀 In Build...  🚧
+</h4>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
