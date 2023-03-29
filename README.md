@@ -40,7 +40,7 @@ yarn dev
 pnpm dev
 ```
 <h4 align="left"> 
-	🚧 Next.js 🚀 In Build...  🚧
+	🚧 Next.js 13 🚀 In Build...  🚧
 </h4>
 
 
