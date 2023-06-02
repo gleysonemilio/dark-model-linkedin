@@ -6,7 +6,7 @@ I decided to improve my knowledge of the latest version of [Next.js 13](https://
 
 With this in mind, I decided to create the LinkedIn [LinkedIn](https://www.linkedin.com/in/gleysonsilva/) profile section from scratch, incorporating a dark mode theme. In the process, I also created some components with a more modern appearance.
 
-![](https://res.cloudinary.com/dvggwxs6a/image/upload/v1680093621/gif_dark_qckhhe.gif)
+![](https://res.cloudinary.com/dvggwxs6a/image/upload/v1680095021/gif__r1vvl0.gif)
 
 The ultimate goal is to turn it into a comprehensive portfolio that showcases my experience and allows me to tell my professional story in a unique way.
 
@@ -40,7 +40,7 @@ yarn dev
 pnpm dev
 ```
 <h4 align="left"> 
-	🚧 Next.js 🚀 In Build...  🚧
+	🚧 Next.js 13 🚀 In Build...  🚧
 </h4>
 
 
