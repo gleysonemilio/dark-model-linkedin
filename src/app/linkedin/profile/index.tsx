@@ -3,7 +3,7 @@ import './styles.css'
 
 export default function Profile() {
   const url_profile =
-    'https://media.licdn.com/dms/image/D4D03AQHjxUk0TY5kUQ/profile-displayphoto-shrink_200_200/0/1666033192249?e=1684368000&v=beta&t=Qbq3AX3Em3m82xpsWhRE1vMxlzjhursirq69v6IRUiM'
+    'https://media.licdn.com/dms/image/D4D03AQHjxUk0TY5kUQ/profile-displayphoto-shrink_200_200/0/1666033192249?e=1691020800&v=beta&t=lMhhBz1hREbJMI733O6nIu92FegTNDp_s82tyi3W-So'
 
   const list_company = [
     {
