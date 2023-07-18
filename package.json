@@ -23,7 +23,7 @@
     "typescript": "5.0.2"
   },
   "engines": {
-    "node": "18.13.0"
+    "node": "18.16.1"
   },
   "devDependencies": {
     "@next/eslint-plugin-next": "^13.2.4",
