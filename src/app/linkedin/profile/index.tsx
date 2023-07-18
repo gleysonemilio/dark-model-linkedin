@@ -1,27 +1,24 @@
 import { Button, ButtonDefault, ButtonPrimary } from '@/components'
+import { UserImg, LogoCiandtImg, LogoPucMinas } from '@/assets'
+import Image from 'next/image'
 import './styles.css'
 
 export default function Profile() {
-  const url_profile =
-    'https://media.licdn.com/dms/image/D4D03AQHjxUk0TY5kUQ/profile-displayphoto-shrink_200_200/0/1666033192249?e=1691020800&v=beta&t=lMhhBz1hREbJMI733O6nIu92FegTNDp_s82tyi3W-So'
-
   const list_company = [
     {
       name: 'CI&T',
-      url_logo:
-        'https://media.licdn.com/dms/image/C4D0BAQHNSZRQJ1JlHA/company-logo_100_100/0/1658169890917?e=1687392000&v=beta&t=BIAAtriU1D-dIElkrStwZARua4acRt7pTWBXhisKuZM'
+      UrlLogo: LogoCiandtImg
     },
     {
       name: 'Pontificia Universidade Catolica de Minas Gerais',
-      url_logo:
-        'https://media.licdn.com/dms/image/C4D0BAQFSybvCzUeNoQ/company-logo_100_100/0/1669894042482?e=1687392000&v=beta&t=vSEswCU4jBBteZVSe6ieZxKrxc4I36l4m2SPTgkn-Co'
+      UrlLogo: LogoPucMinas
     }
   ]
 
   return (
     <section>
       <div className="img-profile">
-        <img src={url_profile} alt="img profile" />
+        <Image src={UserImg} alt="img profile" width={130} quality={100} />
       </div>
 
       <div className="container-profile-about">
@@ -31,15 +28,14 @@ export default function Profile() {
           <span>
             Belo Horizonte, Minas Gerais, Brasil
             <strong>
-              {' '}
               - Contact informartion + de <br /> 500 connections
             </strong>
           </span>
         </div>
         <div className="container-company">
-          {list_company.map(({ name, url_logo }, index) => (
+          {list_company.map(({ name, UrlLogo }, index) => (
             <div className="img-container" key={index}>
-              <img src={url_logo} alt="img ci&t" />
+              <Image src={UrlLogo} alt="img ci&t" width={30}/>
               <span>{name}</span>
             </div>
           ))}
