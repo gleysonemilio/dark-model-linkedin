@@ -33,7 +33,7 @@ export const list_experience: ExperienceProps[] = [
     sub_title: 'abr de 2022',
     location: 'Belo Horizonte, Minas Gerais, Brasil',
     img_company:
-      'https://media.licdn.com/dms/image/C4D0BAQHNSZRQJ1JlHA/company-logo_100_100/0/1658169890917?e=1687392000&v=beta&t=BIAAtriU1D-dIElkrStwZARua4acRt7pTWBXhisKuZM',
+      'https://media.licdn.com/dms/image/D4D0BAQFHpQee1halCA/company-logo_100_100/0/1689081697377/ciandt_logo?e=1721260800&v=beta&t=j53vzx6-b65xBM00UV0BswbGgIN-Gfw3si1e8p7lHdA',
     skills: [
       'Nextj',
       'Azure DevOps Server',
@@ -84,7 +84,7 @@ export const list_experience: ExperienceProps[] = [
     location: 'Belo Horizonte e Região, Brasil',
     time_worked: '3 years',
     img_company:
-      'https://media.licdn.com/dms/image/C4E0BAQFXpNbT0i9bEQ/company-logo_100_100/0/1579099351715?e=1687392000&v=beta&t=hl92xboBQcap-tN9dMTWw_s9mlXGovMtgf54p66WszE',
+      'https://media.licdn.com/dms/image/C4E0BAQFXpNbT0i9bEQ/company-logo_100_100/0/1630580293642/portal_ligado_na_sade_logo?e=1721260800&v=beta&t=LlYkJ7hH9V6fr5JjjQEfRk58M6QhCXyEpwWpkFq5t3k',
     skills: [
       'Nextj',
       'Azure DevOps Server',
@@ -120,16 +120,16 @@ export const list_experience: ExperienceProps[] = [
         <br />
         <br />
         After those two months, I transitioned into a front-end role, working with React and HTML to
-        create important modules for the company&apos;s platform. Some of my key achievements in this
-        role include developing packing list, NF-e verification, and delivery tracking modules that
-        are still used in the company today. I was also one of the key contributors to the front-end
-        platform&apos;s complete reformulation, moving it from HML to React.
+        create important modules for the company&apos;s platform. Some of my key achievements in
+        this role include developing packing list, NF-e verification, and delivery tracking modules
+        that are still used in the company today. I was also one of the key contributors to the
+        front-end platform&apos;s complete reformulation, moving it from HML to React.
         <br />
         <br />
-        I&apos;m proud of the work I did at Azapfy, and I feel that I made a real impact during my time
-        there. My skills as a designer and front-end developer allowed me to bring valuable insights
-        and solutions to the company, and I enjoyed collaborating with my colleagues to deliver
-        successful projects.
+        I&apos;m proud of the work I did at Azapfy, and I feel that I made a real impact during my
+        time there. My skills as a designer and front-end developer allowed me to bring valuable
+        insights and solutions to the company, and I enjoyed collaborating with my colleagues to
+        deliver successful projects.
       </p>
     ),
     title: 'Front-End Developer',
@@ -137,7 +137,7 @@ export const list_experience: ExperienceProps[] = [
     location: 'Belo Horizonte e Região, Brasil',
     time_worked: '1 year',
     img_company:
-      'https://media.licdn.com/dms/image/C4E0BAQFy1bz1MT4ELQ/company-logo_100_100/0/1548082379818?e=1687392000&v=beta&t=N8t22dIWACTfsMuvkUxBjgsyuqzfXtpxRMn2Njiz5Pg',
+      'https://media.licdn.com/dms/image/C4E0BAQFy1bz1MT4ELQ/company-logo_100_100/0/1630606593257/azapfyvelocidadeparafazer_logo?e=1721260800&v=beta&t=uwuIW8LjJlry7f0UWQ0UaQUc81Uz5TZIo-JqMyjJGTA',
     skills: [
       'React.js',
       'React Hooks',
@@ -161,8 +161,8 @@ export const list_experience: ExperienceProps[] = [
     text: (
       <p>
         I was seeking to expand my horizons beyond the infrastructure segment of the technology
-        market. That&apos;s when I found an opportunity to work at Mercedes Benz in their DTI (Department
-        Technologist Informatica) technological department.
+        market. That&apos;s when I found an opportunity to work at Mercedes Benz in their DTI
+        (Department Technologist Informatica) technological department.
         <br />
         <br />
         During my time at Mercedes Benz, I was responsible for monitoring the Invoice system (ERP)
@@ -180,7 +180,7 @@ export const list_experience: ExperienceProps[] = [
     location: 'Belo Horizonte e Região, Brasil',
     time_worked: '1 year 8 months',
     img_company:
-      'https://media.licdn.com/dms/image/C4D0BAQEkDK7TnthtLw/company-logo_100_100/0/1625140019174?e=1687392000&v=beta&t=tKvPBrPYAqIE1BcZzHzCKki8Hc7OA1SpGuuwiyWKJio',
+      'https://media.licdn.com/dms/image/C4D0BAQEkDK7TnthtLw/company-logo_100_100/0/1630455336611?e=1721260800&v=beta&t=41bRUs854yD8k0keWxYs3Lk_cYB69P6M_1PauLNJg7Y',
     skills: ['Banco de dados', 'SQL', 'MySQL']
   }
 ]
