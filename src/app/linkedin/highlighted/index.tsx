@@ -5,7 +5,7 @@ import './styles.css'
 
 export default function Highlighted() {
   const img_highlighted =
-    'https://media.licdn.com/dms/image/C4D22AQFiDw0ATDCfUg/feedshare-shrink_480/0/1651845387455?e=1682553600&v=beta&t=jO9KOMm418USNuU9zxJcOnQE5LCJyrLz-vj5ob-_MfI'
+    'https://media.licdn.com/dms/image/C4D22AQFiDw0ATDCfUg/feedshare-shrink_800/0/1651845387455?e=1716422400&v=beta&t=VJbbdGH7j9UlNrV9tY6yoU4OV_0bXAaxGc9UTBsWTeU'
   return (
     <section>
       <div className="container-sub">
