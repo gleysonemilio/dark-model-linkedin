@@ -33,7 +33,7 @@ export const list_experience: ExperienceProps[] = [
     sub_title: 'abr de 2022',
     location: 'Belo Horizonte, Minas Gerais, Brasil',
     img_company:
-      'https://media.licdn.com/dms/image/D4D0BAQFHpQee1halCA/company-logo_100_100/0/1689081697377/ciandt_logo?e=1721260800&v=beta&t=j53vzx6-b65xBM00UV0BswbGgIN-Gfw3si1e8p7lHdA',
+      'https://media.licdn.com/dms/image/v2/D4D0BAQGk6fFz-4k92g/company-logo_100_100/company-logo_100_100/0/1723635499449/ciandt_logo?e=1742428800&v=beta&t=_NTG8yb98MsbSQG9-18rY6-lER3IVL5yur_QBdl3NgY',
     skills: [
       'Nextj',
       'Azure DevOps Server',
@@ -84,7 +84,7 @@ export const list_experience: ExperienceProps[] = [
     location: 'Belo Horizonte e Região, Brasil',
     time_worked: '3 years',
     img_company:
-      'https://media.licdn.com/dms/image/C4E0BAQFXpNbT0i9bEQ/company-logo_100_100/0/1630580293642/portal_ligado_na_sade_logo?e=1721260800&v=beta&t=LlYkJ7hH9V6fr5JjjQEfRk58M6QhCXyEpwWpkFq5t3k',
+      'https://media.licdn.com/dms/image/v2/C4E0BAQFXpNbT0i9bEQ/company-logo_100_100/company-logo_100_100/0/1630580293642/portal_ligado_na_sade_logo?e=1742428800&v=beta&t=cAcwDqC9mdAe26z5Dy7X8P3HusOmDB3KEJs_zYPtrrE',
     skills: [
       'Nextj',
       'Azure DevOps Server',
@@ -137,7 +137,7 @@ export const list_experience: ExperienceProps[] = [
     location: 'Belo Horizonte e Região, Brasil',
     time_worked: '1 year',
     img_company:
-      'https://media.licdn.com/dms/image/C4E0BAQFy1bz1MT4ELQ/company-logo_100_100/0/1630606593257/azapfyvelocidadeparafazer_logo?e=1721260800&v=beta&t=uwuIW8LjJlry7f0UWQ0UaQUc81Uz5TZIo-JqMyjJGTA',
+      'https://media.licdn.com/dms/image/v2/C4E0BAQFy1bz1MT4ELQ/company-logo_100_100/company-logo_100_100/0/1630606593257/azapfyvelocidadeparafazer_logo?e=1742428800&v=beta&t=CjGE-oz3ZEPT5RK2WqbgFLZEfEfdwtHT5cL2ltwbNnU',
     skills: [
       'React.js',
       'React Hooks',
@@ -180,7 +180,7 @@ export const list_experience: ExperienceProps[] = [
     location: 'Belo Horizonte e Região, Brasil',
     time_worked: '1 year 8 months',
     img_company:
-      'https://media.licdn.com/dms/image/C4D0BAQEkDK7TnthtLw/company-logo_100_100/0/1630455336611?e=1721260800&v=beta&t=41bRUs854yD8k0keWxYs3Lk_cYB69P6M_1PauLNJg7Y',
+      'https://media.licdn.com/dms/image/v2/C4D0BAQEkDK7TnthtLw/company-logo_100_100/company-logo_100_100/0/1630455336611?e=1742428800&v=beta&t=iv02J_OCjdf4jfg1ycF7f_3N4vssKrq8edDsZw5kQuI',
     skills: ['Banco de dados', 'SQL', 'MySQL']
   }
 ]
